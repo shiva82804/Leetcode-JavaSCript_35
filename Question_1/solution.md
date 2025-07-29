@@ -18,6 +18,6 @@ function createHelloWorld() {
     };
 }
 
-2️⃣ Using Arrow Functions
+### **2️⃣ Using Arrow Functions**
 
 const createHelloWorld = () => () => "Hello World";
