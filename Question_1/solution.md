@@ -2,12 +2,12 @@
 
 ## [LeetCode 2667: Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/)
 
-This question helps us understand the **fundamental properties of JavaScript functional programming**.  
-In JavaScript, we can create a function and return it in multiple ways.
+This problem helps us understand the **fundamental properties of JavaScript functional programming**.  
+In JavaScript, functions are **first-class citizens**, meaning they can be returned from other functions, stored in variables, or passed as arguments.
 
 ---
 
-## ✅ Methods
+## ✅ Different Ways to Create the Function
 
 ### **1️⃣ Using the `function` keyword**
 
@@ -17,7 +17,5 @@ function createHelloWorld() {
         return "Hello World";
     };
 }
-
-### **2️⃣ Using Arrow Functions**
 
 const createHelloWorld = () => () => "Hello World";
